@@ -1,5 +1,5 @@
 services:
     -
-        class: JonPurvis\Lawman\PHPStan\ExpectationMethodsClassReflectionExtension
+        class: Saloon\Lawman\PHPStan\ExpectationMethodsClassReflectionExtension
         tags:
             - phpstan.broker.methodsClassReflectionExtension
