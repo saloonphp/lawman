@@ -150,37 +150,37 @@ expect()->extend(
 expect()->extend(
     'toHaveJsonBody',
     fn (): ArchExpectation => $this->toImplement(HasBody::class)
-        ->toUse(HasJsonBody::class)
+        ->toUseTrait(HasJsonBody::class)
 );
 
 expect()->extend(
     'toHaveMultipartBody',
     fn (): ArchExpectation => $this->toImplement(HasBody::class)
-        ->toUse(HasMultipartBody::class)
+        ->toUseTrait(HasMultipartBody::class)
 );
 
 expect()->extend(
     'toHaveXmlBody',
     fn (): ArchExpectation => $this->toImplement(HasBody::class)
-        ->toUse(HasXmlBody::class)
+        ->toUseTrait(HasXmlBody::class)
 );
 
 expect()->extend(
     'toHaveFormBody',
     fn (): ArchExpectation => $this->toImplement(HasBody::class)
-        ->toUse(HasFormBody::class)
+        ->toUseTrait(HasFormBody::class)
 );
 
 expect()->extend(
     'toHaveStringBody',
     fn (): ArchExpectation => $this->toImplement(HasBody::class)
-        ->toUse(HasStringBody::class)
+        ->toUseTrait(HasStringBody::class)
 );
 
 expect()->extend(
     'toHaveStreamBody',
     fn (): ArchExpectation => $this->toImplement(HasBody::class)
-        ->toUse(HasStreamBody::class)
+        ->toUseTrait(HasStreamBody::class)
 );
 
 expect()->extend(

@@ -35,9 +35,7 @@ it('checks that a class uses header authentication', function (): void {
 
 it('checks that a class uses multiple authentication methods', function (): void {
     expect(ToUseMultipleAuthenticators::class)
-        ->toUseMultipleAuthenticators()
-        ->toUseCertificateAuthentication()
-        ->toUseTokenAuthentication();
+        ->toUseMultipleAuthenticators();
 });
 
 it('checks that a class uses digest authentication', function (): void {

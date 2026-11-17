@@ -8,6 +8,6 @@ use Saloon\CachePlugin\Traits\HasCaching;
 
 expect()->extend(
     'toHaveCaching',
-    fn (): ArchExpectation => $this->toUse(HasCaching::class)
+    fn (): ArchExpectation => $this->toUseTrait(HasCaching::class)
         ->toImplement(Cacheable::class)
 );
