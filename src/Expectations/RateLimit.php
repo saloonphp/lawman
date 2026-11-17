@@ -7,5 +7,5 @@ use Saloon\RateLimitPlugin\Traits\HasRateLimits;
 
 expect()->extend(
     'toHaveRateLimits',
-    fn (): ArchExpectation => $this->toUse(HasRateLimits::class)
+    fn (): ArchExpectation => $this->toUseTrait(HasRateLimits::class)
 );

@@ -145,7 +145,7 @@ expect()->extend(
 
 expect()->extend(
     'toUseAsyncPagination',
-    fn (): ArchExpectation => $this->toUse(HasAsyncPagination::class)
+    fn (): ArchExpectation => $this->toUseTrait(HasAsyncPagination::class)
 );
 
 expect()->extend(

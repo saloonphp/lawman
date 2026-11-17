@@ -15,5 +15,5 @@ expect()->extend(
 expect()->extend(
     'toBeSaloonDto',
     fn (): ArchExpectation => $this->toImplement(WithResponse::class)
-        ->toUse(HasResponse::class)
+        ->toUseTrait(HasResponse::class)
 );
