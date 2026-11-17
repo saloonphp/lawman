@@ -1,5 +1,5 @@
 {
-    "name": "jonpurvis/lawman",
+    "name": "saloonphp/lawman",
     "description": "A PestPHP Plugin to help with architecture testing SaloonPHP integrations",
     "keywords": [
         "php",
@@ -12,6 +12,9 @@
         "saloon"
     ],
     "license": "MIT",
+    "replace": {
+        "jonpurvis/lawman": "self.version"
+    },
     "authors": [
         {
             "name": "Jon Purvis",
@@ -25,7 +28,7 @@
     },
     "autoload": {
         "psr-4": {
-            "JonPurvis\\Lawman\\": "src/",
+            "Saloon\\Lawman\\": "src/",
             "Tests\\Fixtures\\Arch\\": "tests/Fixtures/Arch"
         },
         "files": [

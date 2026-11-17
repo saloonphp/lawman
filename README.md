@@ -1,10 +1,10 @@
 <p align="center">
     <img src="art/banner.png" alt="Lawman">
     <p align="center">
-        <a href="https://github.com/JonPurvis/lawman/actions"><img alt="GitHub Workflow Status (master)" src="https://github.com/JonPurvis/lawman/actions/workflows/tests.yml/badge.svg"></a>
-        <a href="https://packagist.org/packages/jonpurvis/lawman"><img alt="Total Downloads" src="https://img.shields.io/packagist/dt/jonpurvis/lawman"></a>
-        <a href="https://packagist.org/packages/jonpurvis/lawman"><img alt="Latest Version" src="https://img.shields.io/packagist/v/jonpurvis/lawman"></a>
-        <a href="https://packagist.org/packages/jonpurvis/lawman"><img alt="License" src="https://img.shields.io/packagist/l/jonpurvis/lawman"></a>
+        <a href="https://github.com/saloonphp/lawman/actions"><img alt="GitHub Workflow Status (master)" src="https://github.com/saloonphp/lawman/actions/workflows/tests.yml/badge.svg"></a>
+        <a href="https://packagist.org/packages/saloonphp/lawman"><img alt="Total Downloads" src="https://img.shields.io/packagist/dt/saloonphp/lawman"></a>
+        <a href="https://packagist.org/packages/saloonphp/lawman"><img alt="Latest Version" src="https://img.shields.io/packagist/v/saloonphp/lawman"></a>
+        <a href="https://packagist.org/packages/saloonphp/lawman"><img alt="License" src="https://img.shields.io/packagist/l/saloonphp/lawman"></a>
     </p>
 </p>
 
@@ -128,7 +128,7 @@ the extension is registered automatically. Otherwise, add the following to your 
 
 ```neon
 includes:
-    - vendor/jonpurvis/lawman/extension.neon
+    - vendor/saloonphp/lawman/extension.neon
 ```
 
 ## Contributing

@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace JonPurvis\Lawman\PHPStan;
+namespace Saloon\Lawman\PHPStan;
 
 use Pest\Expectation;
 use PHPStan\Reflection\ClassReflection;
