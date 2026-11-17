@@ -14,40 +14,40 @@ use Saloon\Traits\Plugins\HasTimeout;
 
 expect()->extend(
     'toUseAcceptsJsonTrait',
-    fn (): ArchExpectation => $this->toUse(AcceptsJson::class)
+    fn (): ArchExpectation => $this->toUseTrait(AcceptsJson::class)
 );
 
 expect()->extend(
     'toUseAlwaysThrowOnErrorsTrait',
-    fn (): ArchExpectation => $this->toUse(AlwaysThrowOnErrors::class)
+    fn (): ArchExpectation => $this->toUseTrait(AlwaysThrowOnErrors::class)
 );
 
 expect()->extend(
     'toUseTimeoutTrait',
-    fn (): ArchExpectation => $this->toUse(HasTimeout::class)
+    fn (): ArchExpectation => $this->toUseTrait(HasTimeout::class)
 );
 
 expect()->extend(
     'toUseAuthorisationCodeGrantTrait',
-    fn (): ArchExpectation => $this->toUse(AuthorizationCodeGrant::class)
+    fn (): ArchExpectation => $this->toUseTrait(AuthorizationCodeGrant::class)
 );
 
 expect()->extend(
     'toUseClientCredentialsGrantTrait',
-    fn (): ArchExpectation => $this->toUse(ClientCredentialsGrant::class)
+    fn (): ArchExpectation => $this->toUseTrait(ClientCredentialsGrant::class)
 );
 
 expect()->extend(
     'toUseClientCredentialsBasicAuthGrantTrait',
-    fn (): ArchExpectation => $this->toUse(ClientCredentialsBasicAuthGrant::class)
+    fn (): ArchExpectation => $this->toUseTrait(ClientCredentialsBasicAuthGrant::class)
 );
 
 expect()->extend(
     'toUseRequiresAuthTrait',
-    fn (): ArchExpectation => $this->toUse(RequiresAuth::class)
+    fn (): ArchExpectation => $this->toUseTrait(RequiresAuth::class)
 );
 
 expect()->extend(
     'toUseApiVersionTrait',
-    fn (): ArchExpectation => $this->toUse(HasApiVersion::class)
+    fn (): ArchExpectation => $this->toUseTrait(HasApiVersion::class)
 );

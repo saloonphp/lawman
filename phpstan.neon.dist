@@ -12,3 +12,6 @@ parameters:
         -
             identifier: return.type
             path: src/Expectations/Pagination.php
+        -
+            identifier: return.type
+            path: src/Expectations/Authentication.php
